@@ -6,10 +6,21 @@ Abstract:
 This section aims to critically evaluate and compare the performance of five machine learning models—Linear Regression, Random Forest, Gradient Boosting, ARIMA, and LSTM—across multiple data sheets for predicting heart rate. The performance metrics under consideration include Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-Squared (R2).
 
 Introduction:
-Given the application's medical nature, high accuracy and reliability are paramount. Hence, multiple models were trained on each sheet, and their performance was evaluated using three metrics: MAE for understanding the average error magnitude, MSE for penalizing larger errors more significantly, and R2 for assessing how well the model explains the variance in the target variable.
+Given the application's medical nature, high accuracy and reliability are paramount. Hence, multiple models were trained on each sheet, and their performance was evaluated using three metrics: MAE for understanding the average error magnitude, MSE for penalizing larger errors more significantly, and R2 for assessing how well the model explains the variance in the target variable. 
+
+
 
 Methods:
 The models were trained and evaluated on a set of data sheets labeled from id003 to id032, resulting in a total of 30 different scenarios. Cross-validation techniques were used to ensure a fair comparison.
+
+Metrics Explained:
+Model: The machine learning or statistical model used for prediction. Different models have different strengths and weaknesses, and their performance can vary depending on the nature of the data.
+
+MAE (Mean Absolute Error): Represents the average of the absolute differences between the observed actual outcomes and the predictions made by the model. The smaller the MAE, the better the model has performed. A MAE of 0 would mean the model made no errors, which is unlikely in real-world scenarios.
+
+MSE (Mean Squared Error): Similar to MAE but squares the differences before averaging them. MSE gives a relatively high weight to large errors. A smaller MSE indicates a better fit of the model to the data.
+
+R2 (R-squared or Coefficient of Determination): Represents the proportion of the variance in the dependent variable that is predictable from the independent variables. R2 ranges from 0 to 1, where a higher value generally indicates a better fit of the model. Negative values suggest that the model is worse than a horizontal line. 
 
 Results:
 Overall Trends:
