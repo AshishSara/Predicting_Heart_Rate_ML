@@ -1,9 +1,9 @@
 
-Ensemble Methods in Your Context:
+Ensemble Methods:
 
-Combine Linear Models and Tree-Based Models: You could create an ensemble that takes the average of predictions from a linear regression model and a Random Forest model. This may capture both linear and non-linear relationships in the data.
+Combine Linear Models and Tree-Based Models: could create an ensemble that takes the average of predictions from a linear regression model and a Random Forest model. This may capture both linear and non-linear relationships in the data.
 
-Weighted Average of Models Based on Performance: You could assign higher weights to models that perform better according to a particular metric (e.g., lower MAE).
+Weighted Average of Models Based on Performance: could assign higher weights to models that perform better according to a particular metric (e.g., lower MAE).
 
 Use Boosting: Given that Random Forest and Gradient Boosting individually show varying performance across different sheets, using a boosting method may improve overall performance.
 
